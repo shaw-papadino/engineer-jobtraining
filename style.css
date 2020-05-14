@@ -1,0 +1,171 @@
+body {
+    background: #FAFAFA;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    /*min-height: 100vh;*/
+}
+.hako {
+    background: #ffffff;
+    /*box-shadow: 0px 1px 1px;*/
+    border: 1px solid #ECECEC;
+    border-bottom: 2px solid #DBDBDB;
+}
+.oobako {
+    margin: 50px auto;
+    width: 700px;
+    /*width: 50%;*/
+
+}
+.oobako > p {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+/*
+ ヘッダー
+*/
+
+.site-header {
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background-color: white;
+}
+.logo {
+    display: flex;
+}
+.logo p {
+    color: #000;
+    font-size: 1.5rem;
+    margin: 16px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.site-logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navi_menu {
+    margin-bottom: 0;
+}
+.navi_menu_item{
+    display: inline-block;
+    margin-left: 20px;
+}
+.navi_menu_item img {
+    width: 24px;
+    height: auto;
+}
+.navi_menu_item a {
+    text-decoration: none;
+    color: gray;
+}
+
+/*
+ プロフィール
+*/
+
+.profile {
+    padding: 20px 50px;
+}
+#grid_profile {
+    display: grid;
+    justify-content: space-between;
+    /*grid-template-rows: 150px 50px 100px;*/
+    grid-template-columns: 350px 100px 200px;
+}
+#p_name {
+    grid-column: 1 / 2;
+    display: flex;
+}
+#p_name p {
+    font-weight: bold;
+}
+#p_name img {
+    max-width: 100px;
+    height: auto;
+}
+
+#p_name div {
+    margin-left: 50px;
+}
+
+#p_type {grid-column: 2 / 3}
+
+#p_type li {
+    font-weight: bold;
+}
+#p_value {grid-column: 3 / 4}
+
+li {
+    list-style: none;
+}
+
+/*
+ 勤務表
+*/
+
+.kinmu-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+button {
+    border: 3px solid #80CFF4;
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+    color: #80CFF4;
+    padding: 5px 30px;
+    font-size: 1rem;
+    outline-width: 1px;
+}
+#buttonA:focus ,#buttonB:focus{
+        background-color: #80CFF4;
+        color: white;
+}
+.kinmu img {
+    width: 100%;
+    height: auto;
+}
+
+/*
+ ラーメンバー
+*/
+
+.member {
+    display: flex;
+    justify-content: space-evenly;
+}
+.member div {
+    margin: 10px;
+}
+.member .hako {
+    text-align: center;
+}
+.member .hako img {
+    width: 100%;
+    height: auto;
+}
+.member .hako a img {
+    width: 50px;
+    height: auto;
+}
+footer {
+    background-color: #271C0A;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+footer .logo p {
+    color: #FFFFFF;
+}
