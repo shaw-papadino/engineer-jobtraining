@@ -120,6 +120,7 @@ li {
     padding-top: 20px;
 }
 button {
+    background-color: white;
     border: 3px solid #80CFF4;
     border-radius: 20px;
     width: 100px;
@@ -165,6 +166,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 50px;
+    margin-top: auto;
 }
 footer .logo p {
     color: #FFFFFF;
